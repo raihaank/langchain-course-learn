@@ -1,0 +1,43 @@
+# ========================
+# Sensitive / Secrets
+# ========================
+.env
+
+# ========================
+# FAISS Vector Store (generated, not source code)
+# ========================
+faiss_db/
+
+# ========================
+# PDF Data Files (can be large, add your own locally)
+# ========================
+data/
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+.venv/
+env/
+ENV/
+
+# ========================
+# IDE & OS
+# ========================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
